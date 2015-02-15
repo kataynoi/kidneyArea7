@@ -24,6 +24,14 @@ class About extends CI_Controller {
         $this->layout->view('pages/test',$data);
 
     }
+    public function index2()
+    {
+
+        $data['prov']=$this->basic->get_province_area(7);
+        $data['t']="SAVE";
+        $this->layout->view('pages/test',$data);
+
+    }
 
 
 }
