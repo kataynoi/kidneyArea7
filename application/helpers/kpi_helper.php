@@ -102,7 +102,7 @@ if ( ! function_exists('year'))
         }else{
             $year=date('Y');
         }
-        $year='2014';
+        $year='2015';
         return $year;
 
 

@@ -17,13 +17,11 @@ class Imports44 extends CI_Controller {
         ini_set('MAX_EXECUTION_TIME', -1);
         $this->load->model('Base_data_model', 'base_data');
         $this->load->model('Import_model', 'import');
-        $this->provcode='45';
+        $this->provcode='44';
         $this->n_year=year();
         $this->prov_server=prov_server($this->provcode);
 
-        if(!isset)){
 
-        }
         $this->level = $this->session->userdata('import');
 
       for($i=2557;$i<2558;$i++)

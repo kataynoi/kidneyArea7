@@ -10,7 +10,7 @@
             <li class="active">
                 <i class="fa fa-dashboard"></i> Dashboard
             </li>
-        </ol>
+        </ol>a
     </div>
 </div>
 <!-- /.row -->
